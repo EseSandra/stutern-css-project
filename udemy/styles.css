@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+    padding: 0;
+    margin: 0;
+}
+
+.landing {
+    margin: 0 12rem;
+}
+
+.main {
+    background-image: url("./img/udemy-banner.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5rem 0;
+
+}
+
+.main-advert-banner {
+    padding: 1rem 1.5rem;
+    width: 30%;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 10px #ddd;
+}
+
+.main-advert-banner  h1 {
+    font-size: 2rem;
+}
+.search {
+    padding: 0.5rem 1rem;
+    width: 15rem;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    border-bottom: 1px solid black;
+    box-shadow: 0, 20px;
+    padding: 10px;
+    height: 10% !important;
+}
+
+.button, .button-outline {
+    background-color: black;
+    color: white;
+    padding: 10 40px;
+    border: 1px solid black;
+    padding: 1rem 1.5rem;
+}
+
+.button-outline {
+    background-color: white;
+    color: black;
+}
+
+.main-advert-banner {
+    background-color: white;
+    width: 30%;
+    margin-left: 10%;
+    padding-left: 2%;
+}
+
+.main-advert-banner h1,  .main-advert-banner p {
+    margin-bottom: 0;
+}
+
+.courses, .top-categories {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.top-categories-section {
+    margin-top: 5rem;
+}
+
+.top-categories-section h4, .student-view h4 {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.top-categories-section img {
+    margin-bottom: 0.5rem;
+}
+
+.top-category-title {
+    font-weight: bolder;
+}
+
+.courses-available-section {
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.course-rating-votes {
+    font-size: 0.9rem;
+}
+
+.course-title {
+    font-weight: bolder;
+    font-size:medium;
+    width: 100%;
+    word-wrap: break-word !important;
+}
+
+.course-author {
+    font-size: 0.7rem;
+}
+
+.course-card {
+    width: 100%;
+}
+
+.fa-star {
+    color: gold;
+}
+
+.student-view {
+    margin-top: 5rem;
+}
+
+.bestseller {
+    border: 1px solid #eceb98;
+    background-color: #eceb98;
+    font-size: 0.6rem;
+    text-align: center;
+    width: 25%;
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+.ft-section {
+    width: 100vw;
+    background-color: #f7f9fa;
+    margin-top: 5rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ft {
+    margin: 0 12rem;
+    padding: 5rem 0rem;
+}
+
+.ft-categories {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 2rem;
+    row-gap: 20px;
+
+}
+
+.ft h5 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.ft-category-card-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.ft-category-card-detail {
+    margin: 2rem 0;
+}
+
+.ft-category-card-link {
+    font-weight: bolder;
+    color: #5624d0;
+}
+
+ .ft-category-card-count {
+    color: #6a6f73;
+    font-size: 0.8rem;
+ }
+
+ .trusted-section {
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+
+ .ts-heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+ }
+
+ .ts-logos {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+ }
+
+
+ .ts-business-section {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 5rem auto;
+ }
+
+ .ts-business {
+    text-align: left;
+    margin-right: 3rem;
+ }
+
+ .ts-business-header {
+    font-size: 1.7rem;
+    font-weight: 700;
+ }
+
+ .ts-business-header span {
+    color: #5624d0;
+ }
+
+ .ts-business-title {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    font-weight: 800;
+ }
+
+ .ts-business-benefits {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-left: -1rem;
+ }
+
+ .ts-button-group {
+    margin-top: 2rem;
+ }
+
+ .ts-instructor {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    text-align: left;
+ }
+
+ .ts-instructor p {
+    font-size: 1.2rem;
+ }
+
+ .footer {
+    background-color: black;
+    color: white;
+    padding-left: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
+
+ .footer-items {
+    display: grid;
+    width: 45%;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ .footer-column a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+ }
+
+ .footer-top {
+    display: flex;
+    justify-content: space-between;
+ }
+  
+ .footer-top button {
+    margin-right: 5rem;
+    border: 1px solid white;
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+ }
+
+ .footer-bottom {
+    margin-top: 10rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+ }
+
+ .course-selection {
+    margin-top: 2rem;
+ }
+
+ 
